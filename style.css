@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+}
+.body{
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    height: max-content;
+    top: -10px;
+    overflow: hidden;
+}
+.slider{
+    height: 45vw;
+    background-image: url(shcfdn_image/10.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    animation: slide 50s infinite;
+    background-attachment: fixed;
+    transition: 1s ease;
+}
+@media screen and (max-width:600px){
+    .slider{
+        height: 70vw;
+    }
+}
+.slider .abs{
+    background-color: black;
+    height: 45vw;
+    width: 100%;
+    position: absolute;
+    opacity: 60%;
+}
+@media screen and (max-width:600px){
+    .slider .abs{
+        height: 70vw;
+    }
+}
+.slider .rel{
+    color: white;
+    width: 80%;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    font-size: 2vw;
+    top: 17vw;
+    font-family: sans-serif;
+    transition: 2s ease;
+    left: 100%;
+}
+@media screen and (max-width:600px){
+    .slider .rel{
+        font-size: 3vw;
+        top: 30vw;
+    }
+}
+.slider .rel h2{
+    font-family: serif;
+    text-transform: uppercase;
+    letter-spacing: .2vw;
+}
+header{
+    padding: 10px 0;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: max-content;
+    transition: 1s ease;
+}
+.menu{
+    width: 100%;
+    position: relative;
+    margin: auto;
+    height: max-content;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.menu .logo{
+    background-color: white;
+    width: max-content;
+    height: max-content;
+}
+.menu .logo img{
+    width: 10vw;
+}
+@media screen and (max-width:600px){
+    .menu .logo img{
+        width: 20vw;
+    }
+}
+.menu .option{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    word-spacing: 5vw;
+    position: relative;
+    top: 3vw;
+    height: max-content;
+}
+@media screen and (max-width:1000px){
+    .menu .option{
+        display: none;
+    }
+}
+.menu .option ul{
+    list-style: none;
+}
+.menu .option ul li{
+    display: inline;
+    cursor: pointer;
+}
+.menu .media{
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+    top: 3vw;
+    height: max-content;
+}
+.menu .media .social{
+    word-spacing: 1vw;
+    cursor: pointer;
+}
+.ham{
+    padding: 3px;
+    background-color: transparent;
+    border: 2px solid white;
+    width: max-content;
+    height: max-content;
+    display: none;
+}
+@media screen and (max-width:1000px){
+    .ham{
+        display: block;
+    }
+}
+.ham .burger{
+    background-color: white;
+    width: 40px;
+    height: 6px;
+    margin: 5px 4px;
+}
+@keyframes slide {
+    10%{background-image: url(shcfdn_image/4.jpeg);}
+    30%{background-image: url(shcfdn_image/5.jpeg);}
+    50%{background-image: url(shcfdn_image/9.jpg);}
+    70%{background-image: url(shcfdn_image/11.jpg);}
+    100%{background-image: url(shcfdn_image/18.png);}
+}
+.one{
+    height: max-content;
+    width: 100%;
+    padding: 10px 0;
+    position: relative;
+    bottom: 8vw;
+}
+.one-cont{
+    width: 90%;
+    height: max-content;
+    position: relative;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    transition: 1s ease;
+}
+@media screen and (max-width:800px){
+    .one-cont{
+        grid-template-columns: auto auto;
+    }
+}
+.one-col {
+    text-align: center;
+    transition: 2s ease;
+    position: relative;
+    transition: 1s ease;
+}
+.one-col:nth-child(even){
+    right: 500%;
+}
+.one-col:nth-child(odd){
+    top: 200%;
+}
+.one-col img{
+    width: 100%;
+    box-shadow: 0px 10px 20px rgb(142, 141, 141);
+}
+.one-col button{
+    border: 0;
+    padding: 1vw;
+    position: relative;
+    bottom: 70px;
+    cursor: pointer;
+    background-color: rgb(251, 48, 82);
+    color: white;
+    font-weight: bold;
+    transition: 2s ease;
+    display: none;
+}
+@media screen and (max-width:800px){
+    .one-col button{
+        padding: 2vw;
+    }
+}
+.two{
+    position: relative;
+    margin: auto;
+    width: 80%;
+    font-family: sans-serif;
+}
+.two-cont{
+    width: 100%;
+    height: max-content;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 4vw 10vw;
+}
+@media screen and (max-width:800px){
+    .two-cont{
+        grid-template-columns: auto;
+        text-align: center;
+    }
+}
+.two-col h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(248, 78, 107);
+}
+.two-col span{
+    font-size: 500%;
+    border: 2px solid rgb(251, 48, 82);
+    padding: 10px 15px;
+    margin: 3px;
+}
+@media screen and (max-width:800px){
+    .two-col p{
+        text-align: justify;
+    }
+}
