@@ -358,11 +358,12 @@ footer img{
     width:60%;
     color:white;
     background-color:black;
-    left:20%;
+    left:110%;
     font-family: sans-serif;
     padding:0 10%;
     top:0;
     transition:1s ease;
+    
 }
 .mobilemenu h2{
     text-align:left;
