@@ -22,7 +22,7 @@
 }
 @media screen and (max-width:600px){
     .slider{
-        height: 110vw;
+        height: 120vw;
     }
 }
 .slider .abs{
@@ -34,7 +34,7 @@
 }
 @media screen and (max-width:600px){
     .slider .abs{
-        height: 110vw;
+        height: 120vw;
     }
 }
 .slider .rel{
