@@ -347,3 +347,22 @@ footer{
 footer img{
     width: 15vw;
 }
+.mobilemenu{
+   position:fixed;
+    height:100%;
+    width:60%;
+    color:white;
+    background-color:black;
+    left:20%;
+    font-family: sans-serif;
+    padding:0 10%;
+}
+.mobilemenu h2{
+    text-align:left;
+    padding:20px 0;
+}
+.mobilemenu span{
+    padding:7px;
+    background-color:pink;
+}
+    
