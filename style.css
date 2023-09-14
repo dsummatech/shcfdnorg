@@ -22,7 +22,7 @@
 }
 @media screen and (max-width:600px){
     .slider{
-        height: 70vw;
+        height: 110vw;
     }
 }
 .slider .abs{
@@ -34,7 +34,7 @@
 }
 @media screen and (max-width:600px){
     .slider .abs{
-        height: 70vw;
+        height: 110vw;
     }
 }
 .slider .rel{
@@ -52,7 +52,7 @@
 @media screen and (max-width:600px){
     .slider .rel{
         font-size: 3vw;
-        top: 30vw;
+        top: 40vw;
     }
 }
 .slider .rel h2{
