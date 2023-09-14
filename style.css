@@ -134,6 +134,7 @@ header{
     width: max-content;
     height: max-content;
     display: none;
+    background-color:black;
 }
 @media screen and (max-width:1000px){
     .ham{
