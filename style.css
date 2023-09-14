@@ -362,7 +362,7 @@ footer img{
     font-family: sans-serif;
     padding:0 10%;
     top:0;
-    transition:1s ease;
+    transition:.5s ease;
     
 }
 .mobilemenu h2{
