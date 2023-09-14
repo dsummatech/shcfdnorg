@@ -245,6 +245,9 @@ header{
         font-size: 4vw;
     }
 }
+.two-col p{
+font-size:4vw;
+}
 .two-col span{
     font-size: 500%;
     
