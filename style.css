@@ -356,6 +356,8 @@ footer img{
     left:20%;
     font-family: sans-serif;
     padding:0 10%;
+    top:0;
+    transition:1s ease;
 }
 .mobilemenu h2{
     text-align:left;
