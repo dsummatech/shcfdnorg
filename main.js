@@ -23,4 +23,12 @@ $(function () {
         $(".slider .rel").css({left:"0%"});
         $(".one-col").css({right:"0%", top:"0%"});
      });
+
+    $(".ham").click(function(){
+$(".mobilemenu").css({left:"20%"});
+    });
+
+    $(".mobilemenu h2 span").click(function(){
+$(".mobilemenu").css({left:"110%"});
+    });
 })
