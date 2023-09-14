@@ -246,7 +246,12 @@ header{
     }
 }
 .two-col p{
-font-size: 2.5vw;
+font-size:1.1vw;
+}
+@media screen and (max-width:650px){
+    .two-col p{
+        font-size:3vw;
+    }
 }
 .two-col span{
     font-size: 500%;
@@ -367,4 +372,12 @@ footer img{
     padding:7px;
     background-color:pink;
 }
+.mobilemenu p{
+    padding:10px 0;
+font-weight:bold;
+    border-bottom:2px solid pink;
+}
+
+
+
     
