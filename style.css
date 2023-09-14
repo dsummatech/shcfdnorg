@@ -122,6 +122,11 @@ header{
     word-spacing: 1vw;
     cursor: pointer;
 }
+@media screen and (max-width:600px){
+    .menu .media .social{
+       display:none;
+    }
+    }
 .ham{
     padding: 3px;
     background-color: transparent;
