@@ -3,7 +3,7 @@ $(function () {
     window.onscroll = function(){scrollFunction()};
  function scrollFunction() {
      if (document.body.scrollTop >= 50 || document.documentElement.scrollTop > 50) {
-         $("header").css({"background-color":"pink"});
+         $("header").css({"background-color":"rgb(248, 78, 107)"});
          
      }
      
