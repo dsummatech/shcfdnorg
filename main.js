@@ -13,11 +13,11 @@ $(function () {
  }
 
     $(".one-col").mouseover(function () {
-       $(this).children("button").fadeToggle(); 
+       $(this).children("button").css({display:"block"}); 
     });
-    $(".one-col").mouseleave(function () {
+    /*$(".one-col").mouseleave(function () {
         $(this).children("button").fadeToggle(); 
-     });
+     });*/
 
      $(window).ready(function () {
         $(".slider .rel").css({left:"0%"});

@@ -60,6 +60,20 @@
     text-transform: uppercase;
     letter-spacing: .2vw;
 }
+.slider .rel button{
+    border: 0;
+    padding: 1vw 2vw;
+    text-transform: uppercase;
+    background-color: rgb(248, 78, 107);
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+@media screen and (max-width:600px){
+    .slider .rel button{
+        padding: 1.8vw 2.8vw;
+    }
+}
 header{
     padding: 10px 0;
     background-color: transparent;
@@ -204,6 +218,7 @@ header{
     font-weight: bold;
     transition: 2s ease;
     display: none;
+    margin: auto;
 }
 @media screen and (max-width:800px){
     .one-col button{
@@ -265,6 +280,20 @@ font-size:1.1vw;
         text-align: justify;
     }
 }
+.two-col button{
+    border: 0;
+    padding: 1vw 2vw;
+    text-transform: uppercase;
+    background-color: rgb(248, 78, 107);
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+@media screen and (max-width:600px){
+    .two-col button{
+        padding: 1.8vw 2.8vw;
+    }
+}
 .latest{
     background-color: rgb(250, 247, 247);
     width: 100%;
@@ -320,6 +349,20 @@ font-size:1.1vw;
 }
 .three div h3{
     color: rgb(248, 78, 107);
+}
+.three div button{
+    border: 0;
+    padding: 1vw 2vw;
+    text-transform: uppercase;
+    background-color: rgb(248, 78, 107);
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+@media screen and (max-width:600px){
+    .three div button{
+        padding: 1.8vw 2.8vw;
+    }
 }
 .four{
     background-image: url(shcfdn_image/11nn.jpg);
