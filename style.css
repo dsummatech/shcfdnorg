@@ -1,6 +1,12 @@
 *{
     margin: 0;
 }
+a{
+    color: unset;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
 .body{
     padding:  0;
     position: absolute;
@@ -95,9 +101,12 @@ header{
 .menu .logo{
     width: max-content;
     height: max-content;
+    position: relative;
+    left: 10px;
 }
 .menu .logo img{
     width: 10vw;
+    background-color: white;
 }
 @media screen and (max-width:600px){
     .menu .logo img{
@@ -150,6 +159,7 @@ header{
     height: max-content;
     display: none;
     background-color:black;
+    cursor: pointer;
 }
 @media screen and (max-width:1000px){
     .ham{
@@ -280,7 +290,7 @@ font-size:1.1vw;
         text-align: justify;
     }
 }
-.two-col button{
+.mission-btn button{
     border: 0;
     padding: 1vw 2vw;
     text-transform: uppercase;
@@ -290,7 +300,7 @@ font-size:1.1vw;
     margin-top: 20px;
 }
 @media screen and (max-width:600px){
-    .two-col button{
+    .mission-btn button{
         padding: 1.8vw 2.8vw;
     }
 }
@@ -459,6 +469,40 @@ font-weight:bold;
     border-bottom:2px solid pink;
 }
 
-
-
+.about-one{
+    width: 90%;
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+}
+@media screen and (max-width:850px){
+    .about-one{
+        grid-template-columns: auto;
+    }
+}
+.about-one .ceo-img{
+    text-align: center;
+    font-family: sans-serif;
+}
+.about-one img{
+    border-radius: 20px;
+}
+.ceo-write{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2vw;
+    text-align: justify;
+}
+@media screen and (max-width:850px){
+    .ceo-write{
+        font-size: 2vw;
+    }
+}
+@media screen and (max-width:650px){
+    .ceo-write{
+        font-size: 4vw;
+    }
+}
     
