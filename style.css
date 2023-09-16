@@ -514,6 +514,12 @@ font-weight:bold;
         font-size: 4vw;
     }
 }
+.ceo-write p{
+    padding: 12px 10px;
+}
+.ceo-write .para p:nth-child(even){
+    background-color: rgb(250, 247, 247);
+}
 
 .who-back{
     width: 100%;
