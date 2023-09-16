@@ -77,7 +77,7 @@ a{
 }
 @media screen and (max-width:600px){
     .slider .rel button{
-        padding: 1.8vw 2.8vw;
+        padding: 3.3vw 3vw;
     }
 }
 header{
@@ -301,7 +301,7 @@ font-size:1.1vw;
 }
 @media screen and (max-width:600px){
     .mission-btn button{
-        padding: 1.8vw 2.8vw;
+        padding: 3.3vw 3vw;
     }
 }
 .latest{
@@ -342,7 +342,7 @@ font-size:1.1vw;
 }
 @media screen and (max-width:600px){
     .three{
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
         font-size: 3vw;
         gap: 20px;
     }
@@ -379,7 +379,7 @@ font-size:1.1vw;
 }
 @media screen and (max-width:600px){
     .three div button{
-        padding: 1.8vw 2.8vw;
+        padding: 3.3vw 3vw;
         font-size: 2.5vw;
     }
 }
@@ -605,4 +605,58 @@ font-weight:bold;
     background-color: rgb(248, 78, 107);
     border-radius: 50%;
     padding: 2px;
+}
+
+
+
+.mini-slider{
+    height: 20vw;
+    background-image: url(shcfdn_image/10.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    animation: slide 50s infinite;
+    background-attachment: fixed;
+    transition: 1s ease;
+}
+@media screen and (max-width:600px){
+    .mini-slider{
+        height: 40vw;
+    }
+}
+.mini-slider .mini-abs{
+    background-color: black;
+    height: 20vw;
+    width: 100%;
+    position: absolute;
+    opacity: 60%;
+}
+@media screen and (max-width:600px){
+    .mini-slider .mini-abs{
+        height: 40vw;
+    }
+}
+.mini-slider .mini-rel{
+    color: white;
+    width: 80%;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    font-size: 2vw;
+    top: 13vw;
+    font-family: sans-serif;
+    transition: 2s ease;
+    left: 100%;
+}
+@media screen and (max-width:600px){
+    .mini-slider .mini-rel{
+        font-size: 3vw;
+        top: 30vw;
+    }
+}
+.mini-slider .mini-rel h2{
+    font-family: serif;
+    text-transform: uppercase;
+    letter-spacing: .2vw;
 }

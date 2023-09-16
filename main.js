@@ -22,6 +22,9 @@ $(function () {
      $(window).ready(function () {
         $(".slider .rel").css({left:"0%"});
         $(".one-col").css({right:"0%", top:"0%"});
+
+        
+        $(".mini-slider .mini-rel").css({left:"0%"});
      });
 
     $(".ham").click(function(){
