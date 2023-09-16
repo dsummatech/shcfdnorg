@@ -660,3 +660,86 @@ font-weight:bold;
     text-transform: uppercase;
     letter-spacing: .2vw;
 }
+.handle{
+    width: 90%;
+    position: relative;
+    box-shadow: inset 3px 3px 10px rgb(248, 78, 107), 0px 10px 10px rgb(164, 163, 163), inset -3px -3px 10px rgb(248, 78, 107);
+    margin: 40px auto;
+    padding: 20px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.reach{
+    width: 80%;
+    position: relative;
+    margin:auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 12px 20px;
+}
+@media screen and (max-width:1000px){
+    .reach{
+        grid-template-columns: auto auto;
+        
+        gap: 50px 0;
+    }
+}
+@media screen and (max-width:600px){
+    .reach{
+        grid-template-columns: auto;
+        gap: 50px 0;
+    }
+}
+.reach span{
+    font-size: 10vw;
+    color: rgb(248, 78, 107);
+}
+.reach p{
+    font-size: 1.3vw;
+}
+@media screen and (max-width:900px){
+    .reach p{
+        font-size: 2vw;
+    }
+}
+@media screen and (max-width:600px){
+    .reach p{
+        font-size: 2.5vw;
+    }
+}
+.contact-form{
+    background-color: rgb(250, 247, 247);
+    width: 100%;
+    padding: 50px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+form{
+    width: 70%;
+    position: relative;
+    margin: auto;
+}
+form input{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border: 0;
+    box-shadow: inset 3px 3px 5px rgb(248, 78, 107), 0px 10px 10px rgb(164, 163, 163), inset -3px -3px 5px rgb(248, 78, 107);
+    outline: 0;
+    font-size: 110%;
+}
+form textarea{
+    width: 100%;
+    background-color: white;
+    border: 0;
+    box-shadow: inset 3px 3px 5px rgb(248, 78, 107), 0px 10px 10px rgb(164, 163, 163), inset -3px -3px 5px rgb(248, 78, 107);
+    outline: 0;
+    font-size: 110%;
+}
+form button{
+    background-color: rgb(248, 78, 107);
+    color: white;
+    padding: 15px 30px;
+    border: 0;
+    font-weight: bold;
+}
