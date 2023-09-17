@@ -50,7 +50,7 @@ a{
     position: relative;
     margin: auto;
     font-size: 2vw;
-    top: 17vw;
+    top: 12vw;
     font-family: sans-serif;
     transition: 2s ease;
     left: 100%;
@@ -58,7 +58,7 @@ a{
 @media screen and (max-width:600px){
     .slider .rel{
         font-size: 3vw;
-        top: 47vw;
+        top:38vw;
     }
 }
 .slider .rel h2{
