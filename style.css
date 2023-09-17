@@ -247,7 +247,7 @@ header{
     margin:0px auto 50px;
     width: 80%;
     font-family: sans-serif;
-    background-image:url(shcfdn_image/11ndd.jpg);
+    
     color:white;
 }
 .two-cont{
@@ -268,6 +268,9 @@ header{
     display: grid;
     grid-template-columns: auto auto;
     gap: 10px;
+}
+.two h2{
+ color:rgb(248, 78, 107);
 }
 .two-col h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
