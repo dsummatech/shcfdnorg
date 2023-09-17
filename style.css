@@ -69,7 +69,7 @@ a{
 }
 @media screen and (max-width:600px){
     .slider .rel h2{
-        font-size: 10vw;
+        font-size:7vw;
     }
 }
 .slider .rel button{
