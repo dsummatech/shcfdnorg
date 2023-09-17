@@ -797,6 +797,11 @@ font-weight:bold;
     grid-template-columns: 60% 38%;
     gap: 5px;
 }
+@media screen and (max-width:800px){
+    .foot .foot-three .f-t-in{
+        grid-template-columns: auto;
+    }
+}
 .foot .foot-three .f-t-in img{
     width: 100%;
 }
