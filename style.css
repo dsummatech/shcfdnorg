@@ -76,7 +76,7 @@ a{
     border: 0;
     padding: 1vw 2vw;
     text-transform: uppercase;
-    background-color: rgb(248, 78, 107);
+    background-color: #791e15;
     color: white;
     font-weight: bold;
     margin-top: 20px;
@@ -111,12 +111,12 @@ header{
     left: 10px;
 }
 .menu .logo img{
-    width: 10vw;
-    background-color: white;
+    width: 15vw;
+    background-color: transparent;
 }
 @media screen and (max-width:600px){
     .menu .logo img{
-        width: 20vw;
+        width: 25vw;
     }
 }
 .menu .option{
@@ -139,6 +139,8 @@ header{
 .menu .option ul li{
     display: inline;
     cursor: pointer;
+    border-bottom: 2px solid #791e15;
+    padding:2px 4px;
 }
 .menu .media{
     color: white;
@@ -147,6 +149,7 @@ header{
     position: relative;
     top: 3vw;
     height: max-content;
+    font-weight: bold;
 }
 .menu .media .social{
     word-spacing: 1vw;
@@ -160,11 +163,11 @@ header{
 .ham{
     padding: 3px;
     background-color: transparent;
-    border: 2px solid white;
+    border: 2px solid black;
     width: max-content;
     height: max-content;
     display: none;
-    background-color:black;
+    background-color:#791e15;
     cursor: pointer;
 }
 @media screen and (max-width:1000px){
@@ -268,13 +271,15 @@ header{
     gap: 10px;
 }
 .two h2{
- color:rgb(248, 78, 107);
+ color:white;
+ text-shadow: 1px 1px 1px #791e15;
 }
 .two-col h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(248, 78, 107);
+    color: white;
     text-align: left;
     font-size: 1.5vw;
+    text-shadow: 1px 1px 1px #791e15;
 }
 @media screen and (max-width:650px){
     .two-col h2{
@@ -304,7 +309,7 @@ font-size:1.1vw;
     border: 0;
     padding: 1vw 2vw;
     text-transform: uppercase;
-    background-color: rgb(248, 78, 107);
+    background-color: #791e15;
     color: white;
     font-weight: bold;
     margin-top: 20px;
@@ -367,7 +372,7 @@ font-size:1.1vw;
 .three div{
     padding: 20px;
     background-color: white;
-    box-shadow: inset 3px 3px 5px rgb(248, 78, 107), 0px 10px 10px rgb(164, 163, 163), inset -3px -3px 5px rgb(248, 78, 107);
+    box-shadow: inset 3px 3px 5px #791e15, 0px 10px 10px rgb(164, 163, 163), inset -3px -3px 5px #791e15;
     color: black;
 }
 .three img{
@@ -376,13 +381,13 @@ font-size:1.1vw;
     margin-bottom: 20px;
 }
 .three div h3{
-    color: rgb(248, 78, 107);
+    color: #791e15;
 }
 .three div button{
     border: 0;
     padding: 1vw 2vw;
     text-transform: uppercase;
-    background-color: rgb(248, 78, 107);
+    background-color: #791e15;
     color: white;
     font-weight: bold;
     margin-top: 20px;
@@ -403,7 +408,7 @@ font-size:1.1vw;
     text-align: center;
 }
 .four div{
-    background-color: rgb(248, 78, 107);
+    background-color: #791e15;
     width: 85%;
     position: relative;
     margin: auto;
@@ -429,7 +434,7 @@ font-size:1.1vw;
     border: 0;
     height: 50px;
     background-color: white;
-    box-shadow: -2px -2px 2px black, inset -2px -2px 2px rgb(248, 78, 107);
+    box-shadow: -2px -2px 2px black, inset -2px -2px 2px #791e15;
 }
 .four form button{
     width: max-content;
@@ -438,7 +443,7 @@ font-size:1.1vw;
     bottom: 3.5px;
     border: 0;
     background-color: black;
-    color: rgb(248, 78, 107);
+    color: #791e15;
     font-weight: bold;
 }
 footer{
@@ -472,7 +477,7 @@ footer .footer-media span{
     height:100%;
     width:60%;
     color:white;
-    background-color:black;
+    background-color:#791e15;
     left:110%;
     font-family: sans-serif;
     padding:0 10%;
@@ -486,12 +491,15 @@ footer .footer-media span{
 }
 .mobilemenu span{
     padding:7px;
-    background-color:pink;
+    background-color:#615c5c;
+    cursor: pointer;
 }
 .mobilemenu p{
-    padding:10px 0;
+    padding:20px;
 font-weight:bold;
-    border-bottom:2px solid pink;
+    border-bottom:2px solid white;
+    text-align: left;
+    
 }
 
 .about-one{
@@ -600,7 +608,7 @@ font-weight:bold;
     padding: 5px 0;
 }
 .can-list p span{
-    color: rgb(248, 78, 107);
+    color: #791e15;
 }
 
 
@@ -624,7 +632,7 @@ font-weight:bold;
 }
 .do-list p span{
     color: white;
-    background-color: rgb(248, 78, 107);
+    background-color: #791e15;
     border-radius: 50%;
     padding: 2px;
 }
@@ -685,7 +693,7 @@ font-weight:bold;
 .handle{
     width: 90%;
     position: relative;
-    box-shadow: inset 3px 3px 10px rgb(248, 78, 107), 0px 10px 10px rgb(164, 163, 163), inset -3px -3px 10px rgb(248, 78, 107);
+    box-shadow: inset 3px 3px 10px #791e15, 0px 10px 10px rgb(164, 163, 163), inset -3px -3px 10px #791e15;
     margin: 40px auto;
     padding: 20px 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -714,7 +722,7 @@ font-weight:bold;
 }
 .reach span{
     font-size: 10vw;
-    color: rgb(248, 78, 107);
+    color: #791e15;
 }
 .reach p{
     font-size: 1.3vw;
@@ -746,7 +754,7 @@ font-weight:bold;
     height: 50px;
     background-color: white;
     border: 0;
-    box-shadow: inset 3px 3px 5px rgb(248, 78, 107), 0px 10px 10px rgb(164, 163, 163), inset -3px -3px 5px rgb(248, 78, 107);
+    box-shadow: inset 3px 3px 5px #791e15, 0px 10px 10px rgb(164, 163, 163), inset -3px -3px 5px #791e15;
     outline: 0;
     font-size: 110%;
 }
@@ -754,12 +762,12 @@ font-weight:bold;
     width: 100%;
     background-color: white;
     border: 0;
-    box-shadow: inset 3px 3px 5px rgb(248, 78, 107), 0px 10px 10px rgb(164, 163, 163), inset -3px -3px 5px rgb(248, 78, 107);
+    box-shadow: inset 3px 3px 5px #791e15, 0px 10px 10px rgb(164, 163, 163), inset -3px -3px 5px #791e15;
     outline: 0;
     font-size: 110%;
 }
 .contact-form form button{
-    background-color: rgb(248, 78, 107);
+    background-color: #791e15;
     color: white;
     padding: 15px 30px;
     border: 0;
@@ -787,7 +795,7 @@ font-weight:bold;
 }
 .foot span{
     font-size: 150%;
-    color: rgb(248, 78, 107);
+    color: #791e15;
 }
 .foot .foot-two p{
     margin: 5px;

@@ -3,12 +3,17 @@ $(function () {
     window.onscroll = function(){scrollFunction()};
  function scrollFunction() {
      if (document.body.scrollTop >= 50 || document.documentElement.scrollTop > 50) {
-         $("header").css({"background-color":"rgb(248, 78, 107)"});
-         
+         $("header").css({"background-color":"white"});
+         $(".menu .media").css({"color":"#791e15"});
+         $(".menu .option").css({"color":"#791e15"});
+         $(".logo img").attr("src","shcfdn_image/logob.png");
      }
      
      else{
        $("header").css({"background-color":"transparent"});
+       $(".menu .media").css({"color":"white"});
+       $(".menu .option").css({"color":"white"});
+       $(".logo img").attr("src","shcfdn_image/logo.png");
      }
  }
 
