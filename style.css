@@ -57,7 +57,7 @@ a{
 }
 @media screen and (max-width:600px){
     .slider .rel{
-        font-size: 3vw;
+        font-size: 5vw;
         top:38vw;
     }
 }
