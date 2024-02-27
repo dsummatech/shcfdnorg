@@ -28,6 +28,42 @@ $(function () {
         $(".slider .rel").css({left:"0%"});
         $(".one-col").css({right:"0%", top:"0%"});
 
+        var n1 = -1;
+        function count1() {
+            if (n1 < 15) {
+                n1++;
+                $(".one-col h2 .num1").html(n1);
+            }
+        }
+        setInterval(count1, 100);
+
+        var n2 = -1;
+        function count2() {
+            if (n2 < 7000) {
+                n2+=50;
+                $(".one-col h2 .num2").html(n2);
+            }
+        }
+        setInterval(count2, 10);
+
+        var n3 = -1;
+        function count3() {
+            if (n3 < 700) {
+                n3+=50;
+                $(".one-col h2 .num3").html(n3);
+            }
+        }
+        setInterval(count3, 100);
+
+        var n4 = -1;
+        function count4() {
+            if (n4 < 10) {
+                n4++;
+                $(".one-col h2 .num4").html(n4);
+            }
+        }
+        setInterval(count4, 100);
+
         
         $(".mini-slider .mini-rel").css({left:"0%"});
      });

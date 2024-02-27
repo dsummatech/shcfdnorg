@@ -36,7 +36,7 @@ a{
     height: 45vw;
     width: 100%;
     position: absolute;
-    opacity: 60%;
+    opacity: 80%;
 }
 @media screen and (max-width:600px){
     .slider .abs{
@@ -46,7 +46,7 @@ a{
 .slider .rel{
     color: white;
     width: 80%;
-    text-align: center;
+    text-align: left;
     position: relative;
     margin: auto;
     font-size: 2vw;
@@ -66,6 +66,7 @@ a{
     text-transform: uppercase;
     letter-spacing: .2vw;
     font-size: 5vw;
+    line-height: 88%;
 }
 @media screen and (max-width:600px){
     .slider .rel h2{
@@ -80,10 +81,33 @@ a{
     color: white;
     font-weight: bold;
     margin-top: 20px;
+    transition: 1s ease;
+}
+.slider .rel .donate{
+    border: 1px solid white;
+    padding: 1vw 2vw;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.slider .rel button:hover{
+    border: 0;
+    padding: 1vw 2vw;
+    text-transform: uppercase;
+    background-color: #ff3f2c;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
 }
 @media screen and (max-width:600px){
     .slider .rel button{
         padding: 3.3vw 3vw;
+        font-size: 3vw;
+    }
+    .slider .rel .donate{
+        padding: 3.3vw 5vw;
     }
 }
 header{
@@ -190,11 +214,13 @@ header{
 }
 .one{
     height: max-content;
-    width: 100%;
+    width: 90%;
     padding: 10px 0;
     position: relative;
+    margin: auto;
     bottom: 8vw;
-    
+    background-color: #791e15;
+    border-radius: 25px;
 }
 .one-cont{
     width: 90%;
@@ -202,8 +228,8 @@ header{
     position: relative;
     margin: auto;
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 15px;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 15px 0;
     transition: 1s ease;
 }
 @media screen and (max-width:800px){
@@ -216,9 +242,30 @@ header{
     transition: 2s ease;
     position: relative;
     transition: 1s ease;
+    color: white;
+    font-size: 2em;
+    padding: 4vw 0;
+}
+.r-b{
+    border-right: 1px solid white;
+}
+@media screen and (max-width:800px){
+    .one-col {
+        text-align: center;
+        transition: 2s ease;
+        position: relative;
+        transition: 1s ease;
+        background-color: #791e15;
+        color: white;
+        font-size: 1.2em;
+        padding: 2vw 0;
+    }
+    .r-b{
+        border-right:0;
+    }
 }
 .one-col:nth-child(even){
-    right: 500%;
+    right: 300%;
 }
 .one-col:nth-child(odd){
     top: 200%;
@@ -263,6 +310,7 @@ header{
     .two-cont{
         grid-template-columns: auto;
         text-align: center;
+        gap: 4vw 0;
     }
 }
 .two-col{
@@ -272,8 +320,15 @@ header{
 }
 .two h2{
  color:white;
- text-shadow: 1px 1px 1px #791e15;
+ /*text-shadow: 1px 1px 1px white;*/
+ font-weight: 900;
 }
+.two .h2{
+    color:white;
+    line-height: 4em;
+    /*text-shadow: 1px 1px 1px white;*/
+    font-weight: 900;
+   }
 .two-col h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
@@ -282,6 +337,11 @@ header{
     text-shadow: 1px 1px 1px #791e15;
 }
 @media screen and (max-width:650px){
+    .two-col{
+        display: block;
+        grid-template-columns: auto;
+        gap: 0px 0;
+    }
     .two-col h2{
         font-size: 4vw;
     }
@@ -313,10 +373,33 @@ font-size:1.1vw;
     color: white;
     font-weight: bold;
     margin-top: 20px;
+    transition: 1s ease;
+}
+.mission-btn .donate{
+    border: 1px solid white;
+    padding: 1vw 2vw;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.mission-btn button:hover{
+    border: 0;
+    padding: 1vw 2vw;
+    text-transform: uppercase;
+    background-color: #ff3f2c;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
 }
 @media screen and (max-width:600px){
     .mission-btn button{
         padding: 3.3vw 3vw;
+        font-size: 3vw;
+    }
+    .mission-btn .donate{
+        padding: 3.3vw 5vw;
     }
 }
 .latest{
