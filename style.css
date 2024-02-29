@@ -29,7 +29,7 @@ button{
 }
 .between{
     width: 80%;
-    padding: 50px;
+    padding: 0px 50px;
     position: relative;
     margin: 0px auto 100px auto;
 }
@@ -50,9 +50,9 @@ button{
     }
     .between{
         width: 90%;
-        padding: 50px 0px;
+        padding:0px 0px 10px 0px;
         position: relative;
-        margin: 0px auto 100px auto;
+        margin: 0px auto 50px auto;
     }
     .b-top{
         padding: 10px 0;
@@ -93,6 +93,7 @@ button{
     display: grid;
     grid-template-columns: 48% 48%;
     gap: 2%;
+    color: #000529;
 }
 @media screen and (max-width:800px) {
     .b-bot{
@@ -107,6 +108,7 @@ button{
 .b-bot img{
     width: 100%;
     border-radius: 25px;
+    max-height: 300px;
 }
 .b-bot-l{
     width: 100%;
@@ -116,19 +118,45 @@ button{
     width: 100%;
     padding: 10px 0;
 }
+.raised{
+    padding: 10px 0;
+    font-weight: lighter;
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 5%;
+    text-align: center;
+    color: #000529;
+}
+.raised .fund{
+    padding: 10px 0;
+}
+.raised .fund:nth-child(even){
+    border-left:1px solid #000529;
+    border-right:1px solid #000529;
+}
+.raised .fund h3{
+    font-size: 24px;
+    font-family: serif;
+}
+.raised .fund p{
+    font-size: 14px;
+}
 .b-bot .progress{
-    width: 95%;
+    width: 85%;
     background-color: rgb(215, 214, 214);
     height: max-content;
     border-radius: 50px;
 }
 .bar{
-    padding: 5px 10px;
+    padding: 8px 10px;
     background-color: #791e15;
     width: 80%;
     border-radius: 50px;
     text-align: right;
     color: white;
+    display: inline-flex;
+    justify-content: space-between;
 }
 .body{
     padding:  0;
@@ -269,7 +297,7 @@ header{
 }
 .menu .option{
     font-family: sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
     color: white;
     word-spacing: 5vw;
     position: relative;
@@ -287,7 +315,6 @@ header{
 .menu .option ul li{
     display: inline;
     cursor: pointer;
-    border-bottom: 2px solid #791e15;
     padding:2px 4px;
 }
 .menu .media{
@@ -311,7 +338,7 @@ header{
 .ham{
     padding: 3px;
     background-color: transparent;
-    border: 2px solid black;
+    border-radius: 5px;
     width: max-content;
     height: max-content;
     display: none;
@@ -328,6 +355,7 @@ header{
     width: 40px;
     height: 6px;
     margin: 5px 4px;
+    border-radius: 3px;
 }
 @keyframes slide {
     10%{background-image: url(shcfdn_image/4.jpeg);}
@@ -850,13 +878,15 @@ footer .footer-media span{
     padding:20px 0;
 }
 .mobilemenu span{
-    padding:7px;
-    background-color:#615c5c;
+    padding:7px 10px;
+    border-radius: 50px;
+    background-color:white;
     cursor: pointer;
+    color: #791e15;
 }
 .mobilemenu p{
     padding:20px;
-font-weight:bold;
+    font-weight:bold;
     border-bottom:2px solid white;
     text-align: left;
     
